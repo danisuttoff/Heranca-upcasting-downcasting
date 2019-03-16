@@ -1,15 +1,15 @@
 //https://github.com/acenelio/inheritance2-java
 package entidades;
 
-public class ContaDeNegocio extends Conta  {
+public class ContaEmpresarial extends Conta  {
 
     private Double limiteDeEmprestimo;
 
-   public ContaDeNegocio(){
+   public ContaEmpresarial(){
        super();
    }
 
-    public ContaDeNegocio(Integer numeroConta, String titular, Double saldo, Double limiteDeEmprestimo){
+    public ContaEmpresarial(Integer numeroConta, String titular, Double saldo, Double limiteDeEmprestimo){
             super(numeroConta, titular, saldo);
             this.limiteDeEmprestimo = limiteDeEmprestimo;
 

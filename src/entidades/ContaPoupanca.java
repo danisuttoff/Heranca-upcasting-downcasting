@@ -15,16 +15,21 @@ public class ContaPoupanca extends Conta {
     }
 
     public Double getTaxaDeJuros() {
+
         return taxaDeJuros;
     }
 
     public void setTaxaDeJuros(Double taxaDeJuros) {
+
         this.taxaDeJuros = taxaDeJuros;
     }
 
     public void AtualizarSaldo(){
         saldo += saldo * taxaDeJuros;
 
-
+    }
+    @Override
+    public void sacar(Double valor){
+         saldo = saldo - valor;
     }
 }
