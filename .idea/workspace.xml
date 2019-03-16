@@ -20,8 +20,8 @@
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/aplicacao/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aplicacao/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/ContaEmpresarial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidades/ContaEmpresarial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PROJETOS IJ.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/Matrix.java" beforeDir="false" />
     </list>
@@ -55,12 +55,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="291" />
+          <entry key="java" value="467" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="291" />
+          <entry key="JAVA" value="467" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -71,29 +71,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/aplicacao/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
               <folding>
+                <element signature="e#0#1635#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entidades/ContaEmpresarial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entidades/ContaPoupanca.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -113,9 +96,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/entidades/ContaEmpresarial.java" />
         <option value="$PROJECT_DIR$/src/entidades/Conta.java" />
         <option value="$PROJECT_DIR$/src/entidades/ContaPoupanca.java" />
+        <option value="$PROJECT_DIR$/src/entidades/ContaEmpresarial.java" />
         <option value="$PROJECT_DIR$/src/aplicacao/App.java" />
       </list>
     </option>
@@ -123,8 +106,8 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="383" />
     <option name="y" value="22" />
-    <option name="width" value="612" />
-    <option name="height" value="367" />
+    <option name="width" value="986" />
+    <option name="height" value="338" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -168,7 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552717273297" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552718196092" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,10 +199,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="383" y="22" width="986" height="338" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3245083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.237581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,16 +255,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entidades/ContaEmpresarial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aplicacao/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding>
+            <element signature="e#0#1635#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

@@ -30,14 +30,21 @@ public class ContaEmpresarial extends Conta  {
                 depositar(valor);
     }*/
 
-    public void emprestimo(Double valorEmpres){
-        if(valorEmpres <= limiteDeEmprestimo){
+    public void emprestimo(Double valorEmpres) {
+        if (valorEmpres <= limiteDeEmprestimo) {
             //saldo += valorEmpres - 10.0;
             Double vt = getSaldo();
-            vt += valorEmpres -10.0;
+            vt += valorEmpres - 10.0;
 
         }
     }
 
-   }
+        @Override
+         public void sacar(Double valor){
+            super.sacar(valor);
+            saldo-= 2.0;
+        }
+    }
+
+
 

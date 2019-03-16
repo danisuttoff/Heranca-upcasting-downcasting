@@ -1,4 +1,5 @@
 //https://github.com/acenelio/inheritance2-java
+//https://github.com/acenelio/inheritance3-java
 
 //velocinautas
 // dilatação temporal
@@ -46,6 +47,11 @@ public class App {
         conta2.sacar(200.0);
         System.out.println(conta2.getSaldo());
         System.out.println("Cosmos");
+
+        Conta conta3 = new ContaEmpresarial(03, "Vader", 1000.0, 500.0);
+        conta3.sacar(200.0);
+        System.out.println(conta3.getSaldo());
+
 
     }
 }
